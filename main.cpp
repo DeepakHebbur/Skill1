@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     cout<<"enter the first number"<<endl;
     cin>>a1;
     add.SetA(a1);
-    cout<<"enter the second number"<<endl;
+    cout<<"enter the second number that has to be added"<<endl;
     cin>>b1;
     add.SetB(b1);
     sum1 = add.ReturnSum();
